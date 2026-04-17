@@ -16,8 +16,6 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>pacr_app</string>
-	<key>GMSApiKey</key>
-	<string>REDACTED</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>PACR uses your location to show nearby sessions.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

@@ -9,10 +9,10 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
 
-        <!-- Google Maps API Key — restrict this key in Google Cloud Console -->
+        <!-- Key is injected from android/local.properties via build.gradle.kts — never hardcode here -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="REDACTED"/>
+            android:value="${MAPS_API_KEY}"/>
 
         <activity
             android:name=".MainActivity"
